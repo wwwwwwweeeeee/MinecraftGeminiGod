@@ -1,0 +1,12 @@
+name: GeminiGod
+version: 2.0.0
+main: com.example.geminigod.GeminiGod
+api-version: '1.20'
+author: YourName
+description: A god-like Gemini AI that interacts with the Minecraft world.
+softdepend: [WorldEdit]
+commands:
+  gemini:
+    description: Talk to the god, Gemini.
+    usage: /gemini <message>
+    aliases: [askgemini, gem]
